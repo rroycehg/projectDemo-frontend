@@ -1,0 +1,37 @@
+{
+  "Characters": [
+    {
+      "id": 1,
+      "Image_url1" : "https://static.wikia.nocookie.net/rknztales/images/c/c4/Sephiroth.png/revision/latest?cb=20110522232639",
+      "Image_url2" : "https://www.cnet.com/a/img/IS2eIITpNMckYrzp59KeyUyirA8=/940x0/2020/04/09/5c1401bd-6ff3-4daa-87a5-0336273623fc/screen-shot-2020-04-09-at-3-02-49-pm.png",
+      "Name:": "Sephiroth",
+      "Age:" : "Unknown",
+      "Weapon:" : "Masamune"
+
+    },
+    {
+        "id": 2,
+        "Image_url1" : "https://static.wikia.nocookie.net/finalfantasy/images/a/af/Cloud_Dissidia_Artwork.png/revision/latest?cb=20110105035813",
+        "Image_url2" : "https://i.pinimg.com/originals/df/24/74/df24743ba40e4a240655437f4a8b44d4.jpg",
+        "Name:": "Cloud Strife",
+        "Age:" : "21~24",
+        "Weapon:" : "Buster Sword (Broadsword)"
+  
+    },
+    {
+        "id": 3,
+        "Image_url1" : "https://static.wikia.nocookie.net/finalfantasy/images/1/1e/Barret-FFVIIArt.png/revision/latest?cb=20170924020336&path-prefix=pt-br",
+        "Image_url2" : "https://img.game8.co/3239535/abda010e1edf7f8412c9db279f471e0a.jpeg/original",
+        "Name:": "Barret Wallace",
+        "Age:" : "35~38",
+        "Weapon:" : "Gun-arm"
+  
+      }
+
+  
+  
+  ]
+
+
+
+}

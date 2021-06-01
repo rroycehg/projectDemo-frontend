@@ -10,10 +10,12 @@ fetch('https://www.moogleapi.com/api/v1/characters')
 
 //format the data-character
 function listCharacter(xx){
-    
+    //const charList = document.querySelector('#characterList')
+    const charName= xx.id[0].name
+    console.log(charName)
 }
 
-
+listCharacter();
 
 // add eventlistener -click to move to different character
 

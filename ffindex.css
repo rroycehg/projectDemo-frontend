@@ -6,7 +6,7 @@ body {
 * {
     box-sizing: border-box;
 }
-h1 {
+h2 {
     color: #eee;
     margin-bottom: 30px;
 }
@@ -20,8 +20,8 @@ h1 {
 #charactersList {
     padding-inline-start: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 100px;
 }
 
 .character {

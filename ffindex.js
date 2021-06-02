@@ -7,7 +7,7 @@ fetch(ffUrl)
 .then(res => res.json())
 .then(characters => {
     listChar(characters)
-    appendChar(characters)
+    //appendChar(characters)
 })
 
 
@@ -16,24 +16,34 @@ function listChar(char){
     let ul = document.querySelector(`#charactersList`)   
     let arrayName = [];
     let arrayDescrip = [];
+    let pictureArray = [];
+    let picUrlArray =[];
+    
     for (i = 0; i < Object(char).length; i++){
              arrayName = Object(char)[i].name
              arrayDescrip = Object(char)[i].description
-             //console.log(array)
+            // pictureArray =Object(char)[i].pictures
+             console.log(char)
              let h2 = document.createElement(`h2`)
              let pTags = document.createElement(`p`)
+             let imgTag= document.createElement('img')
              pTags.textContent = arrayDescrip
              h2.textContent = arrayName
+             imgTag.src=pictureArray.url
              ul.append(h2)
              ul.append(pTags)         
-    }
+             ul.append(imgTag)
+             
+             //picture url
+     
+            
+            }
+        }
+function pullUrl(url){
+
 }
 
 //Take the list of Characters and append it to a container
-function appendChar() {
-    
-}
-
-// add eventlistener -click to move to different character
 
 
+// add eventlistener -click to move to different characters

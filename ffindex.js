@@ -1,21 +1,30 @@
 
-
-
+const ffUrl = 'https://www.moogleapi.com/api/v1/characters'
+listChar();
 
 // fetch from FF DB
-fetch('https://www.moogleapi.com/api/v1/characters')
-.then(response => response.json())
-.then(characters=>console.log(characters))
-.then(characters=>listCharacter(characters))
+fetch(ffUrl)
+.then(res => res.json())
+.then(characters => {
+    listChar(characters)
 
-//format the data-character
-function listCharacter(xx){
-    //const charList = document.querySelector('#characterList')
-    const charName= xx.id[0].name
-    console.log(charName)
+})
+
+
+//Get the Array of each Char-info block using for-loop
+function listChar(char){
+        let array = Object(char);
+        
+       for (i = 0; i < Object(char).length; i++){
+             array = Object(char)[i];
+             //console.log(array)
+        }
 }
 
-listCharacter();
+//Take the list of Characters and append it to a container
+function appendChar() {
+
+}
 
 // add eventlistener -click to move to different character
 

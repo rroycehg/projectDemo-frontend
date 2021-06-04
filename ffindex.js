@@ -1,6 +1,6 @@
 
 const ffUrl = 'https://www.moogleapi.com/api/v1/characters'
-let docleft = document.querySelector(`div.left-column`)   
+  
 let fflist = [];
 // fetch from FF DB
 fetch(ffUrl)
@@ -25,6 +25,7 @@ chars.forEach(char => listChar(char))})
 
 function listChar(char){
     let fflist = char
+    let docleft = document.querySelector(`div.left-column`) 
      //for (i = 0; i < Object(c).length; i++){
         let ffName = fflist.name
         let ffDescrip = fflist.description
@@ -38,6 +39,7 @@ function listChar(char){
                 imgTag.src = ffPics
                 
                 docleft.append(newP)
+                
                    
   }
 

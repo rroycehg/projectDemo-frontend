@@ -13,6 +13,19 @@ fetch(ffUrl)
 })
 .catch(error => {console.log(error);})
 
+
+//Find target and add an event listener for updating Reviews
+
+const searchInput = document.getElementById(`search`)
+
+searchInput.addEventListener(`input`, (event) => {
+  const userInput = event.target.value
+
+  
+})
+
+
+
 function listName(name){
     name.forEach(nameObj=>{
         let ffname =nameObj.name

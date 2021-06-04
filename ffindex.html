@@ -1,44 +1,42 @@
-<!--<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="ffindex.js"></script>
-    <title>Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
 <body>
-    <div id="ff">
-<h1></h1>
-<p></p>
 
-    </div>
+<h2>Final Fantasty Characters</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>list of characters</h2>
+    <p>characters</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>name</h2>
+    <p>description</p>
+  </div>
+</div>
+
 </body>
-</html>-->
-
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>FFDataBase</title>
-        <link rel="stylesheet" href="ffindex.css" />
-    </head>
-    <body>
-        <div class="container">
-            <h1>&#x2728;Final Fantasy Characters &#x2728;</h1>
-            <div id="searchWrapper">
-                <input
-                    type="text"
-                    name="searchBar"
-                    id="searchBar"
-                    placeholder="search for a character"
-                />
-            </div>
-            <ul id="charactersList"></ul>
-        </div>
-        <script defer src="ffindex.js"></script>
-    </body>
 </html>
